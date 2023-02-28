@@ -1,15 +1,46 @@
+*{
+    margin:auto;
+    padding: auto;  /**This code is to remove the white border lines around the webpage**/
+}
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 header{
     text-align: center;
     background-color: gray;
+    padding: 2%;
 }
-img{
-    margin-top: 2%;
-}
+
 aside{
    color:white;
    background-color: black;
-   margin-right: 91%;
+   background-size: 70px;
+   margin-right: 80%;
+   padding: 3%;
 }
+article{
+   margin-left: 10%;
+   margin-top: 20px;
+}
+section{
+    background-color: green;
+    padding-bottom: 2%;
+    
+}
+footer{
+    background-color: gray;
+    padding: 3%;
+}
+.pr{
+    margin-left: 18%;
+   }
+img{
+    height: 12%;
+    width: 12%;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px 0px black;
+}
+h2,h3,p,ul{
+    margin-bottom: 20px;
+    margin-right: 20%;
+   }
