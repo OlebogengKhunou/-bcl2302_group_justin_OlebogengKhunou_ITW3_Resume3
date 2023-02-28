@@ -1,0 +1,15 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    text-align: center;
+    background-color: gray;
+}
+img{
+    margin-top: 2%;
+}
+aside{
+   color:white;
+   background-color: black;
+   margin-right: 91%;
+}
