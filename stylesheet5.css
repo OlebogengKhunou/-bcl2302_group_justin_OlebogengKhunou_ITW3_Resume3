@@ -15,8 +15,9 @@ aside{
    color:white;
    background-color: black;
    background-size: 70px;
-   margin-right: 80%;
+   margin-right: 82%;
    padding: 3%;
+
 }
 article{
    margin-left: 10%;
@@ -43,3 +44,13 @@ img{
 h1,h2,h3,p,ul{
     margin-bottom: 20px;
    }
+.unlist{
+    list-style:none;
+    margin-left: -40%;
+}
+a{
+    text-decoration: none;
+}
+.color{
+    color: white;
+}
