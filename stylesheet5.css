@@ -4,6 +4,8 @@
 }
 body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 header{
     text-align: center;
@@ -33,7 +35,7 @@ footer{
     padding: 3%;
 }
 .Menuspace{
-    margin-left: 18%;
+    margin-right: 82%;
    }
 img{
     height: 12%;
@@ -53,4 +55,7 @@ a{
 }
 .color{
     color: white;
+}
+p{
+    margin-right: 10%;
 }
