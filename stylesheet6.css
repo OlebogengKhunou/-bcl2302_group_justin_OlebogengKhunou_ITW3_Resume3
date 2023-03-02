@@ -2,26 +2,15 @@ body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 15%;
     margin-right: 15%;
-}
-header{
-    text-align: center;
-    background-color: gray;
-    padding: 2%;
-    float: left;
-    width: 30%; 
-    height:600px;
-    background: #ccc;
-    padding: 20px;
+    margin-top: 0%;
 }
 
 article{
-   margin-left: 10%;
-   margin-top: 20px;
+   padding-bottom: 4%;
+   padding-left: 6%;
+   background-color: green;
+   height: 561.2px;
 }
-
-.Menuspace{
-    margin-right: 82%;
-   }
 img{
     height: 34%;
     width: 55%;
@@ -38,27 +27,31 @@ h1,h2,h3,p,ul{
 a{
     text-decoration: none;
 }
-.color{
+.Menucolor{
     color: white;
+    position: relative;
+    left: 70px;
 }
 p{
     margin-right: 10%;
 }
-
-section{
-float: left;
-padding: 20px;
-width: 50%;
-height:600px;
-background-color: #f1f1f1;
-overflow-y: scroll;
+.row1{
+    display: flex;
 }
 
 aside{
+    text-align: center;
     color:white;
     background-color: black;
     background-size: 70px;
-    margin-right: 50%;
-    padding: 3%;
- 
+    padding-top: 4%;
+    padding-bottom: 0.1%;
  }
+ header{
+    background-color: gray;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 4%;
+    padding-bottom: 60%;
+ }
+
