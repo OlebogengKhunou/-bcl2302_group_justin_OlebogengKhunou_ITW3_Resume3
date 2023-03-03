@@ -9,22 +9,26 @@ body{
 
 article{
    padding-bottom: 4%;
-   padding-left: 6%;
+   padding-left: 9%;
+   padding-top: 9%;
    background-color: green;
-   height: 551px;
+   height: 465px;
 }
 img{
     height: 34%;
     width: 55%;
     border-radius: 50%;
-    box-shadow: 5px 5px 10px 0px black;
+    position: relative;
+    left: 195px;
+    top: 80px;
 }
 h1,h2,h3,p,ul{
     margin-bottom: 20px;
    }
 .unlist{
     list-style:none;
-    margin-left: -40%;
+    position: relative;
+    right: 131px;
 }
 a{
     text-decoration: none;
@@ -51,26 +55,35 @@ aside{
  }
  header{
     background-color: gray;
-    text-align: center;
+    text-align: left;
     padding-left: 20px;
     padding-top: 4%;
-    padding-bottom: 28%;
+    padding-bottom: 29.1%;
+    
  }
  footer{
-    color: white;
-    background-color: black;
-    margin-top: -1%;
-    padding-bottom: 3.5%;
-    padding-top: 1%;
-    border-style: dashed;
-    border-color: white;
-    border-width: 1px;
+    font-size: 109%;
+    position:relative;
+    top:40px;
+    right:17px;
  }
 
 .border1{
     border-style: solid;
     border-color: black;
     border-width: 3px;
-    border-right-width: 0px;
+    width: 60%;
 }
-
+div{
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    margin-right: 8%;
+}
+.border2{
+    padding-left: 4%;
+}
+.backtotop{
+ position: relative;
+ left: 130px;
+}
