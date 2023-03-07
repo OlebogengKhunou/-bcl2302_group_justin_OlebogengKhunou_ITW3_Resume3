@@ -16,7 +16,7 @@ img{
     width: 40%;
     border-radius: 50%;
     position: relative;
-    left: 400px;
+    left: 410px;
     top: 240px;
     border-style: solid;
     border-color: gray;
@@ -49,7 +49,7 @@ p{
 aside{
     text-align: center;
     color:white;
-    background-color: black;
+    background-color:black;
     background-size: 70px;
     padding-top: 7%;
     padding-bottom: 0.1%;
