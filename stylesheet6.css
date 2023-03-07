@@ -5,20 +5,19 @@ body{
 }
 
 article{
-   padding-bottom: 4%;
    padding-left: 9%;
    padding-top: 9%;
    padding-right: 0%;
    background-color: green;
-   height: 465px;
+   padding-bottom: 8%;
 }
 img{
-    height: 34%;
-    width: 55%;
+    height: 27%;
+    width: 40%;
     border-radius: 50%;
     position: relative;
-    left: 195px;
-    top: 80px;
+    left: 400px;
+    top: 240px;
     border-style: solid;
     border-color: gray;
     border-width: 4px;
@@ -60,6 +59,7 @@ aside{
     padding-left: 20px;
     padding-top: 4%;
     padding-bottom: 15%;
+    margin-top: -200px;
     
  }
  footer{
@@ -84,8 +84,11 @@ div{
 .border2{
     padding-left: 4%;
 }
-.backtotop{
- position: fixed;
- right: 175px;
- top: 189px ;
+.PLimit{
+    margin-right: 38%;
+    margin-left: -3%;
+}
+.Namespace{
+    padding-bottom: 8.3%;
+    font-size: 400%;
 }

@@ -13,27 +13,37 @@
         <section class="border1">
             <header>
                 <img src="image/OlePic.jpg" alt="profile image" width="130px" height="260px">
-               <h1 style="font-size: 270%; text-align: left;">Olebogeng<br>Khunou</h1>
-                <p>An introductory personal statement.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                <h1 class="Namespace">Olebogeng<br>Khunou</h1>
+                <p class="PLimit">An introductory personal statement.</p>
+                <p class="PLimit">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation
                     ullamco.</p>
-             <footer>
+                <footer>
                     <h2>Contact Details</h2>
                     <p>Email : olebigeng@gmail.com</p>
                     <p>Telephone/Cell : 0734932239</p>
                     <p>Website : <a href="https://za.linkedin.com/" target="_blank">LinkedIn</a></p>
-                    <form action="https://formsubmit.co/olebigeng@gmail.com" method="POST">
-                    <label for="name">Name :</label>
-                    <input type="name" name="name" placeholder="Name"><br>
-                    <label for="name">Last Name :</label>
-                    <input type="name" id="email" placeholder="Last Name"><br>
-                    <label for="email">Email :</label>
-                    <input type="email" id="email" placeholder="Please Enter Your Email">
-                    <textarea name="feedbackStatement" cols="50" rows="7"></textarea><br>
-                    <button type="submit"  style="height: 50px; width: 100px;"> send </button>
-                    </form>
-             </footer>
+                    <fieldset>
+                        <form action="https://formsubmit.co/olebigeng@gmail.com" method="POST">
+                            <label for="Name">Name :</label>
+                            <input type="name" name="Name" placeholder="Enter Name"><br>
+                            <label for="Lastname">Last Name :</label>
+                            <input type="name" name="Lastname" placeholder="Enter Last Name"><br>
+                            <label for="email">Email :</label>
+                            <input type="Email" name="Email" placeholder="Please Enter Your Email">
+                            <h3>Choose a reason for contacting the developer:</h3>
+                                <select name="Subject">
+                                    <option value="Employer">Employer</option>
+                                    <option value="Job Opportunity">Job Opportunity</option>
+                                    <option value="Website fan">Website fan</option>
+                                    <option value="Other Reasons message below">Other Reasons message below</option>
+                                </select>
+                            <p>Leave A Message Here.</p>
+                            <textarea name="FeedbackStatement" cols="50" rows="7"></textarea><br>
+                            <button type="submit" target="_blank" >Submit </button>
+                        </form>
+                    </fieldset>
+                </footer>
             </header>
         </section>
         <!------------------------------------------------------------------------------------------------------------------------------------------->
@@ -46,66 +56,47 @@
                     <li><a href=#skills class="Menucolor">Skills</a></li>
                 </ul>
             </aside>
-            <article style="overflow-y: scroll">
+            <article>
                 <div>
-                <section class="border2">   
-                <h2 id="education">Education</h2>
-                <h3>Intro to Web at <a href="">CodeSpace Academy</a></h3>
-                <p class="limit">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <h3>Qualification 1</h3>
-                <p class="limit">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <h3>Qualification 2</h3>
-                <p class="limit">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <h2 id="experience">Experience</h2>
+                    <section class="border2">
+                        <h2 id="education">Education</h2>
+                        <h3>Intro to Web at <a href="">CodeSpace Academy</a></h3>
+                        <p class="limit">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <h3>Qualification 1</h3>
+                        <p class="limit">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation
+                            ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 
-                <h3>Job 1</h3>
-                <ul>
-                    <li>A sentence about the responsibilities of the job</li>
-                    <li>A sentence about the responsibilities of the job</li>
-                    <li>A sentence about the responsibilities of the job</li>
-                    <li>A sentence about the responsibilities of the job</li>
-                </ul>
+                        <h2 id="experience">Experience</h2>
+                        <h3>Job 1</h3>
+                        <ul>
+                            <li>A sentence about the responsibilities of the job</li>
+                            <li>A sentence about the responsibilities of the job</li>
+                            <li>A sentence about the responsibilities of the job</li>
+                            <li>A sentence about the responsibilities of the job</li>
+                        </ul>
 
-                <h3>Job 2</h3>
-                <ul>
-                    <li>A sentence about the responsibilities of the job</li>
-                    <li>A sentence about the responsibilities of the job</li>
-                    <li>A sentence about the responsibilities of the job</li>
-                    <li>A sentence about the responsibilities of the job</li>
-                </ul>
-                
-                <h3>Job 3</h3>
-                <ul>
-                    <li>A sentence about the responsibilities of the job</li>
-                    <li>A sentence about the responsibilities of the job</li>
-                    <li>A sentence about the responsibilities of the job</li>
-                    <li>A sentence about the responsibilities of the job</li>
-                </ul>
+                        <h3>Job 2</h3>
+                        <ul>
+                            <li>A sentence about the responsibilities of the job</li>
+                            <li>A sentence about the responsibilities of the job</li>
+                            <li>A sentence about the responsibilities of the job</li>
+                            <li>A sentence about the responsibilities of the job</li>
+                        </ul>
 
-                <h2 id="skills">Skills</h2>
-                <ul>
-                    <li>Skill 1</li>
-                    <li>Skill 2</li>
-                    <li>Skill 3</li>
-                    <li>Skill 4</li>
-                </ul>
-               
-                <h2 id="skills">Sub-Skills</h2>
-                <ul>
-                    <li>Skill 1</li>
-                    <li>Skill 2</li>
-                    <li>Skill 3</li>
-                    <li>Skill 4</li>
-                </ul>
-                <p class="backtotop"><a href=#education class="Menucolor">Back</a></p>
-            </section> 
-            </div>
+                        <h2 id="skills">Skills</h2>
+                        <ul>
+                            <li>Skill 1</li>
+                            <li>Skill 2</li>
+                            <li>Skill 3</li>
+                            <li>Skill 4</li>
+                        </ul>
+                    </section>
+                </div>
             </article>
         </section>
     </section>
