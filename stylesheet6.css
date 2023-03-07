@@ -37,6 +37,7 @@ a{
     color: white;
     position: relative;
     left: 72px;
+  
 }
 p{
     margin-right: 10%;
@@ -58,7 +59,7 @@ aside{
     text-align: left;
     padding-left: 20px;
     padding-top: 4%;
-    padding-bottom: 15%;
+    padding-bottom: 15.8%;
     margin-top: -200px;
     
  }
@@ -91,4 +92,9 @@ div{
 .Namespace{
     padding-bottom: 8.3%;
     font-size: 400%;
+}
+
+.Index{
+    margin-left: 15px;
+    margin-bottom: 25px;
 }
