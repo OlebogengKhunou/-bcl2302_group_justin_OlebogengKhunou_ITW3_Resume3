@@ -1,100 +1,85 @@
-body{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     margin:0%;
-  
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0%;
 }
 
-article{
-   padding-left: 9%;
-   padding-top: 9%;
-   padding-right: 0%;
-   background-color: green;
-   padding-bottom: 8%;
+article {
+    padding-left: 9%;
+    padding-top: 9%;
+    padding-right: 0%;
+    background-color: green;
+    padding-bottom: 8%;
 }
-img{
-    height: 27%;
-    width: 40%;
+
+img {
     border-radius: 50%;
-    position: relative;
-    left: 390px;
-    top: 240px;
     border-style: solid;
-    border-color: gray;
+    border-color: black;
     border-width: 4px;
 }
-h1,h2,h3,p,ul{
+
+h1,h2,h3,p,ul {
     margin-bottom: 20px;
-   }
-.unlist{
-    list-style:none;
+}
+
+.unlist {
+    list-style: none;
     position: relative;
     right: 131px;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.Menucolor{
+
+.Menucolor {
     color: white;
     position: relative;
     left: 72px;
-  
+
 }
-p{
+
+p {
     margin-right: 10%;
 }
-.row1{
+
+aside {
+    text-align: center;
+    color: white;
+    background-color: black;
+    background-size: 70px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+header {
+    text-align: center;
+    padding-top: 4%;
+    padding-left: 75%;
+    padding-bottom: 0.1%;
+    background-image: url(image/BackgroundPic.jpeg);
+}
+
+footer {
+    font-size: 109%;
+    padding-left: 8%;
+    padding-top: 2%;
+    background-color: gray;
     display: flex;
 }
 
-aside{
-    text-align: center;
-    color:white;
-    background-color:black;
-    background-size: 70px;
-    padding-top: 7%;
-    padding-bottom: 0.1%;
- }
- header{
-    background-color: gray;
-    text-align: left;
-    padding-left: 20px;
-    padding-top: 4%;
-    padding-bottom: 15.8%;
-    margin-top: -200px;
-    
- }
- footer{
-    font-size: 109%;
-    position:relative;
-    top:20px;
-    right:17px;
- }
-
-.border1{
-    border-style: solid;
-    border-color: black;
-    border-width: 3px;
-    width: 60%;
-}
-div{
+div {
     border-style: solid;
     border-color: black;
     border-width: 2px;
     margin-right: 8%;
 }
-.border2{
+
+.border2 {
     padding-left: 4%;
 }
-.PLimit{
-    margin-right: 38%;
-    margin-left: -3%;
-}
-.Namespace{
-    padding-bottom: 8.3%;
-    font-size: 400%;
-}
 
-.Index{
+.Index {
     margin-left: 15px;
     margin-bottom: 25px;
 }
