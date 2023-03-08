@@ -26,18 +26,21 @@ h1,h2,h3,p,ul {
     list-style: none;
     position: relative;
     right: 131px;
+    display:flex;
+    justify-content: space-evenly;
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 .Menucolor {
-    color: white;
+   
     position: relative;
     left: 72px;
-
 }
+
 
 p {
     margin-right: 10%;
@@ -80,6 +83,6 @@ div {
 }
 
 .Index {
-    margin-left: 15px;
+    margin-left: 105px;
     margin-bottom: 25px;
 }
