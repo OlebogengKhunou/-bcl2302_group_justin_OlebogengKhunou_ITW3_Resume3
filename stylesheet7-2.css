@@ -78,9 +78,11 @@ footer {
     border-width: 2px;
     margin-right: 8%;
 }
-
-.border2 {
+.border1{
     padding-left: 4%;
+}
+.border2 {
+    margin-right: 70%;
 }
 
 .Index {
@@ -92,6 +94,6 @@ footer {
     background-color: rgba(0,0,0, 50%);
     height:100vh;
     color:white;
-    padding-top:10%;
+    padding-top:16%;
     margin-top:-10%;
 }
